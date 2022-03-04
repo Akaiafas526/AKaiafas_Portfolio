@@ -1,8 +1,8 @@
-# Portfolio Homework:
+# Portfolio
 
-https://github.com/Akaiafas526/Portfolio
+https://github.com/Akaiafas526/Portfolio-Pro
 
-https://akaiafas526.github.io/Portfolio/
+https://akaiafas526.github.io/Portfolio-Pro/
 
 
 

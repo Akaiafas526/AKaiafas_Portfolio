@@ -1,0 +1,125 @@
+/* Body of page */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: olive;
+}
+
+/* Navbar customization */
+.navbar {
+    background-color: white;
+    width: 100vw;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-right: 10px;
+}
+
+.navbar ul li {
+    list-style: square;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navbar ul li:hover {
+    background-color: coral;
+}
+
+/* Heading style cutomization */
+.heading {
+    font-size: xx-large;
+    color: yellow;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px dotted white;
+}
+
+/* Main section styling */
+.about-section {
+    padding-bottom: 20px;
+}
+
+.about-section h2 {
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    color: yellow;
+}
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.project-section h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    color: yellow;
+}
+
+#projects {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.project-img {
+    width: 400px;
+}
+
+/* #project-2 {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+} */
+
+/* Footer styling */
+.footer {
+    /* position: fixed; */
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    background-color: white;
+    width: 100vw;
+    
+}
+
+.footer-nav :hover {
+    color: coral;
+
+}
+
+/* Media sizing and styling */
+
+@media screen and (max-width: 400px) {
+    body {
+        flex-direction: column;
+    }
+    header {
+      flex-direction: column;
+    }
+  
+    main {
+      width: 100vw;
+    }
+}
+
+
+
+
+
+
